@@ -1,3 +1,4 @@
 ﻿  run_app.cpp
-D:\Dropbox\offlines\cpp\tutorials\algo_games\run_app.cpp(444,6): warning C4101: 'itemtemp': unreferenced local variable
-  algo_games.vcxproj -> D:\Dropbox\offlines\cpp\tutorials\Debug\algo_games.exe
+D:\gh_repo\code_cracking\cpp\algo_games\run_app.cpp(444,6): warning C4101: 'itemtemp': unreferenced local variable
+  LINK : D:\gh_repo\code_cracking\cpp\algo_games\Debug\algo_games.exe not found or not built by the last incremental link; performing full link
+  algo_games.vcxproj -> D:\gh_repo\code_cracking\cpp\algo_games\Debug\algo_games.exe

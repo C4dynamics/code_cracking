@@ -26,12 +26,8 @@
   (byte & 0x01 ? '1' : '0') 
 // printf("m: "BYTE_TO_BINARY_PATTERN" "BYTE_TO_BINARY_PATTERN"\n", BYTE_TO_BINARY(m >> 8), BYTE_TO_BINARY(m));
 
-void q0();
 void q1();
 void q2();
-void q3(void);
-void q4(void);
-void q5(int iOption);
 
 int two_complement(int x) {
 	return ~x + 1;
@@ -40,65 +36,13 @@ int two_complement(int x) {
 
 int main()
 {
-	q0();
 	q1();
 	q2();
-
-
-	q3();
-	/* q4();
-	q5(1);*/
-
-
-
 }
 
 // Compute the sign of an integer
 // Check if an integer is even or odd
 
-void q0(void) { // Compute the sign of an integer
-
-	std::cout << "question 0 - sign of an integer \n\t";
-
-	int x = 1;
-
-	while (x != 0) {
-
-		std::cout << "enter number \n\t";
-		scanf_s("%d", &x);
-		std::cout << "\n\t";
-		int y = x;
-		char yy;
-
-		yy = (y & 0x80) ? '1' : '0';
-
-		// isolate the msb:
-
-		for (int i = 0; i <= 30; i++) {
-			/*std::cout << "y: \t" + std::to_string(y) + "\t";
-			printf(BYTE_TO_BINARY_PATTERN " " BYTE_TO_BINARY_PATTERN " " BYTE_TO_BINARY_PATTERN " " BYTE_TO_BINARY_PATTERN "\n\t", BYTE_TO_BINARY(y >> 24), BYTE_TO_BINARY(y >> 16), BYTE_TO_BINARY(y >> 8), BYTE_TO_BINARY(y));*/
-
-
-			
-
-			y = y >> 1;
-		}
-
-
-		// create sign 1
-		unsigned m = 1; // only msb is one. 
-		/*printf(BYTE_TO_BINARY_PATTERN " " BYTE_TO_BINARY_PATTERN " " BYTE_TO_BINARY_PATTERN " " BYTE_TO_BINARY_PATTERN "\n\t", BYTE_TO_BINARY(m >> 24), BYTE_TO_BINARY(m >> 16), BYTE_TO_BINARY(m >> 8), BYTE_TO_BINARY(m));*/
-
-		if (y == m) {
-			std::cout << "negative\n\t";
-		}
-		else {
-			std::cout << "positive\n\t";
-		}
-	}
-
-	// why if x < 0, is not enough?
-}
 
 void q1(void) { // Check if an integer is even or odd
 	// In 2’s compliment encoding, the MSB still functions as a sign bit. 

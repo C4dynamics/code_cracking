@@ -1,3 +1,4 @@
 ﻿  pch.cpp
   basics.cpp
-  basics.vcxproj -> D:\Dropbox\offlines\cpp\tutorials\Debug\basics.exe
+  LINK : D:\gh_repo\code_cracking\cpp\basics\Debug\basics.exe not found or not built by the last incremental link; performing full link
+  basics.vcxproj -> D:\gh_repo\code_cracking\cpp\basics\Debug\basics.exe

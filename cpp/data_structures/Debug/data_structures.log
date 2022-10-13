@@ -1,10 +1,7 @@
 ﻿  pch.cpp
   Contact.cpp
-D:\Dropbox\offlines\cpp\tutorials\data_structures\Contact.cpp(12,1): fatal error C1041: cannot open program database 'D:\Dropbox\offlines\cpp\tutorials\data_structures\Debug\vc142.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
   ContactList.cpp
-D:\Dropbox\offlines\cpp\tutorials\data_structures\ContactList.cpp(16,1): fatal error C1041: cannot open program database 'D:\Dropbox\offlines\cpp\tutorials\data_structures\Debug\vc142.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
   c_hash_table.cpp
-D:\Dropbox\offlines\cpp\tutorials\data_structures\c_hash_table.cpp(1,1): fatal error C1041: cannot open program database 'D:\Dropbox\offlines\cpp\tutorials\data_structures\Debug\vc142.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
   data_structures.cpp
-D:\Dropbox\offlines\cpp\tutorials\data_structures\data_structures.cpp(13,1): fatal error C1041: cannot open program database 'D:\Dropbox\offlines\cpp\tutorials\data_structures\Debug\vc142.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
   Generating Code...
+  data_structures.vcxproj -> D:\gh_repo\code_cracking\cpp\data_structures\Debug\data_structures.exe

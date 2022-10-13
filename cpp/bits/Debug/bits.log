@@ -1,3 +1,3 @@
 ﻿  bits.cpp
 bits.obj : error LNK2019: unresolved external symbol "void __cdecl q3(void)" (?q3@@YAXXZ) referenced in function _main
-D:\Dropbox\offlines\cpp\tutorials\Debug\bits.exe : fatal error LNK1120: 1 unresolved externals
+D:\gh_repo\code_cracking\cpp\bits\Debug\bits.exe : fatal error LNK1120: 1 unresolved externals
